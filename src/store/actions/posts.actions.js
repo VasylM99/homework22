@@ -6,8 +6,8 @@ export const GET_POSTS = 'GET_POSTS';
 export function getPosts() {
     return async function (dispatch) {
         
-        const posts = await axios.get('http://77.120.108.119:9999/tweets/');
-        const users = await axios.get('http://77.120.108.119:9999/users/');
+        const posts = await axios.get('https://tweets.globalofficiallottery.com/tweets/');
+        const users = await axios.get('https://tweets.globalofficiallottery.com/users/');
         const postsWithUsers = posts.data.data.map(post => ({
             ...post,
             author: users.data.data.find(user=> post.userId === user.id),
@@ -20,7 +20,7 @@ export function getPosts() {
 }
 export function createPost(data) {
     return async function (dispatch) {
-        await axios.post('http://77.120.108.119:9999/tweets/', data);
+        await axios.post('https://tweets.globalofficiallottery.com/tweets/', data);
         dispatch({
             type: CREATE_POST
         }); 
