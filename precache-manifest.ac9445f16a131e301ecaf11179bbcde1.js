@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48670d0fb187980f1b9969da97bdbae2",
+    "revision": "e4e26275d3f6099d6d5fc04db967fa3f",
     "url": "/homework22/index.html"
   },
   {
-    "revision": "a78e0e95c7641495c122",
+    "revision": "4425acf6727840e819ce",
     "url": "/homework22/static/css/main.d2310793.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/homework22/static/js/2.eed1f87e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a78e0e95c7641495c122",
-    "url": "/homework22/static/js/main.c93fe81a.chunk.js"
+    "revision": "4425acf6727840e819ce",
+    "url": "/homework22/static/js/main.508b46b4.chunk.js"
   },
   {
     "revision": "625a7c754a99686f8573",
