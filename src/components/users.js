@@ -9,13 +9,16 @@ function Users() {
     useEffect(() => {
         dispatch(getUsers())
     }, []);
-    return users.map(user => 
-        <User 
-            avatar={user.avatar}
-            name={user.name}
-            username={user.username}
-        />
-        
+    return (
+        <div className='layout-wrapper'>
+            {users.map(user => 
+                <User 
+                    avatar={user.avatar}
+                    name={user.name}
+                    username={user.username}
+                />
+            )}
+        </div>
     )     
 };
 

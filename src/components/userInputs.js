@@ -31,7 +31,7 @@ function UserInputs(props) {
         setUsername('')
     }
     return(
-        <div>
+        <div className='layout-wrapper'>
             <div>
                 <input placeholder='Name' value={name} onChange={handleNameChange}/>
             </div>

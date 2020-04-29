@@ -36,7 +36,7 @@ function PostInputs(props) {
         setImage('')
     }
     return(
-        <div>
+        <div className='layout-wrapper'>
             <div>
                 <input placeholder='Content' value={content} onChange={handleContentChange}/>
             </div>
