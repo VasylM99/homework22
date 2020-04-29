@@ -1,24 +1,52 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Users from'./components/users';
+import UserInputs from './components/userInputs';
+import PostInputs from './components/postInputs';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Posts from './components/posts';
+
 
 function App() {
-  return (
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        
+      <nav className='header'>
+          <ul>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
+            <li>
+              <Link to="/addUser">Add User</Link>
+            </li>
+            <li>
+              <Link to="/tweets">Tweets</Link>
+            </li>
+            <li>
+              <Link to="/addTweet">Add tweet</Link>
+            </li>
+          </ul>
+        </nav>
+      <Switch >
+          <Route path="/users">
+            <Users/>
+          </Route>
+          <Route path="/addUser">
+            <UserInputs />
+          </Route>
+          <Route path="/addTweet">
+            <PostInputs />
+          </Route>
+          <Route path="/tweets">
+            <Posts />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

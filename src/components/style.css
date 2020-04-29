@@ -1,0 +1,79 @@
+@font-face{
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+.wrapper{
+    display: flex;
+    border: 2px solid #37434c;
+    max-width: 700px;
+    margin: 0 auto 10px;
+}
+
+.layout-wrapper {
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: #15202b;
+    padding-top: 10px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    width: 100%;
+    margin: 10px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.info-acc{
+    margin-bottom: 10px;
+}
+.info-acc>span{
+    margin-right: 15px;
+}
+.name{
+    color: white;
+}
+.nickname{
+    color: #606e7a;
+}
+.date{
+    color: #606e7a;
+}
+.nickname::after{
+    padding-left: 3px;
+    position: absolute;
+    content: '•';
+}
+.content-text{
+    color: white;
+    margin-bottom: 10px;
+}
+.image{
+    border-radius: 20px;
+    display: block;
+    max-width: 570px;
+    max-height: 300px;
+}
+i{
+    color: #606e7a;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
