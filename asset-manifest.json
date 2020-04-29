@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/homework22/static/css/main.d2310793.chunk.css",
-    "main.js": "/homework22/static/js/main.88dfe3ad.chunk.js",
-    "main.js.map": "/homework22/static/js/main.88dfe3ad.chunk.js.map",
-    "runtime-main.js": "/homework22/static/js/runtime-main.5fc181c5.js",
-    "runtime-main.js.map": "/homework22/static/js/runtime-main.5fc181c5.js.map",
-    "static/js/2.eed1f87e.chunk.js": "/homework22/static/js/2.eed1f87e.chunk.js",
-    "static/js/2.eed1f87e.chunk.js.map": "/homework22/static/js/2.eed1f87e.chunk.js.map",
-    "index.html": "/homework22/index.html",
-    "precache-manifest.d90f6305a75be95b5c6dc9cce9a180b9.js": "/homework22/precache-manifest.d90f6305a75be95b5c6dc9cce9a180b9.js",
-    "service-worker.js": "/homework22/service-worker.js",
-    "static/css/main.d2310793.chunk.css.map": "/homework22/static/css/main.d2310793.chunk.css.map",
-    "static/js/2.eed1f87e.chunk.js.LICENSE.txt": "/homework22/static/js/2.eed1f87e.chunk.js.LICENSE.txt",
-    "static/media/D.mp3": "/homework22/static/media/D.ca6c1c20.mp3",
-    "static/media/style.css": "/homework22/static/media/Roboto-Regular.90679e0c.ttf"
+    "main.css": "/homework22new/static/css/main.b9e8e773.chunk.css",
+    "main.js": "/homework22new/static/js/main.37892a47.chunk.js",
+    "main.js.map": "/homework22new/static/js/main.37892a47.chunk.js.map",
+    "runtime-main.js": "/homework22new/static/js/runtime-main.03fdc659.js",
+    "runtime-main.js.map": "/homework22new/static/js/runtime-main.03fdc659.js.map",
+    "static/js/2.95c875d7.chunk.js": "/homework22new/static/js/2.95c875d7.chunk.js",
+    "static/js/2.95c875d7.chunk.js.map": "/homework22new/static/js/2.95c875d7.chunk.js.map",
+    "index.html": "/homework22new/index.html",
+    "precache-manifest.68b6750256b2ce240ee4661ffaa29471.js": "/homework22new/precache-manifest.68b6750256b2ce240ee4661ffaa29471.js",
+    "service-worker.js": "/homework22new/service-worker.js",
+    "static/css/main.b9e8e773.chunk.css.map": "/homework22new/static/css/main.b9e8e773.chunk.css.map",
+    "static/js/2.95c875d7.chunk.js.LICENSE.txt": "/homework22new/static/js/2.95c875d7.chunk.js.LICENSE.txt",
+    "static/media/D.mp3": "/homework22new/static/media/D.ca6c1c20.mp3",
+    "static/media/style.css": "/homework22new/static/media/Roboto-Regular.90679e0c.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.5fc181c5.js",
-    "static/js/2.eed1f87e.chunk.js",
-    "static/css/main.d2310793.chunk.css",
-    "static/js/main.88dfe3ad.chunk.js"
+    "static/js/runtime-main.03fdc659.js",
+    "static/js/2.95c875d7.chunk.js",
+    "static/css/main.b9e8e773.chunk.css",
+    "static/js/main.37892a47.chunk.js"
   ]
 }
